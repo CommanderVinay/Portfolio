@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+
+
+.s3 .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 300px;
+    padding-bottom: 15px;
+    background-color: #ffffff21;
+    margin: auto;
+}
+
+.s3 .card img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid rgb(202, 2, 2);
+    padding: 5px;
+    margin-top: -45px;
+}
+
+.s3 .card h2{
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.secheadline{
+    margin: 10px 0 !important;
+    padding:  0;
+}
+.s3 .cont{
+    width: 90%;
+    height: 0;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.6s ease;
+}
+
+.s3 .card .cont .link i{
+    font-size: 25px;
+    color: rgb(82, 82, 82);
+    transition: all 0.2s ease;
+}
+
+.s3 .card .cont .link i:hover{
+    color: rgb(0, 0, 0) !important;
+    cursor: pointer;
+}
+
+.s3 .card:hover > .cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 300px;
+}
+
+.s3 .card:hover > .link{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s3{
+    padding: 10px 0px;
+    margin : 0;
+    
+  /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=ff6b6b&c2=aa0202&gt=l&gd=dbb
+*/
+background: #040404;
+background: linear-gradient(0deg, #b10000, #000000);
+}
+.s3 h2,footer h2{
+    font-size: 40px;
+    color: #fff !important;
+    padding: 0px 0px 0px 0px;
+    margin: 40px 0 0 0 ;
+    text-shadow: 2px 3px 3px rgba(90, 89, 89, 0.844);
+}
+
+.s3 .card p{
+    text-align: justify;
+    color: #ffffffd7;
+}
+.s3 .icon{ 
+    color: #da0303;
+   
+}
+.servicesrow2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+/* Media Query for Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+    .s3 {
+        padding-bottom: 0;
+    }
+    .s3 .card{
+        margin-bottom: 70px;
+    }
+    .lastServicecard {
+        margin-bottom: 0px !important;
+    }
+    
