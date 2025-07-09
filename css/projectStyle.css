@@ -130,12 +130,29 @@
     font-weight: 900;
     margin: 0px !important;
 }
+.skill{
+  display: flex;
+  
+}
+
+.skillbox{
+  border: solid 1px #ff0000;
+  border-radius: 10px;
+  color: #fff;
+  margin: 5px ;
+  background-color: #ff000057;
+  padding:  2px 5px  !important;
+   box-shadow: 3px 3px 6px 0px rgba(255, 0, 0, 0.65);
+}
 .projects .divkline{
     margin: 0px !important;
     padding: 0px !important;
 }
 .projects .card{
   margin: 20px auto ;
+}
+.content p{
+  font-size: 14px;
 }
 
 @media (max-width: 1024px) {
