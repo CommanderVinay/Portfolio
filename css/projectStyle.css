@@ -154,7 +154,15 @@
 .content p{
   font-size: 14px;
 }
-
+.moreproject{
+  display: flex;
+  justify-content: center;
+  text-align: center !important;
+}
+#projectCard5 , #projectCard6 , #projectCard7 {
+  display: none;
+  transition-duration: 4s;
+}
 @media (max-width: 1024px) {
     .container .card {
         max-width: 45%;
