@@ -9,11 +9,16 @@
         document.getElementById("projectCard6").style.display = "block";
         document.getElementById("projectCard7").style.display = "block";
         document.getElementById("projectCard8").style.display = "block";
+        
     } else {
         document.getElementById("projectCard5").style.display = "none";
         document.getElementById("projectCard6").style.display = "none";
         document.getElementById("projectCard7").style.display = "none";
         document.getElementById("projectCard8").style.display = "none";
+        document.getElementById("Projectssec").scrollIntoView({
+            behavior: "smooth",   // smooth scroll
+            block: "start"        // align to top
+        });
         document.getElementById("moreBtn").innerHTML = 'More Projects <i class="fas fa-chevron-down"></i>';
     }
 }
